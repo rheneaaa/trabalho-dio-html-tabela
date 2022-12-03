@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul class="menu" id="menu-site">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre-empresa.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="horario.html">Horário</a></li>
+            </ul>
+            <div class="menu-btn" id="menu-btn">
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="imagens/images.png" alt="Hospital dos olhos">
+
+                <!-- Aqui vai o seu header -->
+            </div>
+
+            <div class="box">
+                <form action="">
+                    <fieldset>
+                        <legend><b>Preencha o formulário</b></legend>
+                        <br>
+                        <div class="inputBox">
+                            <input type="text" name="nome" id="nome" class="inputUser" required>
+                            <label for="nome" class="labelInput">Nome completo</label>
+                        </div>
+                        <br><br>
+                        <div class="inputBox">
+                            <input type="text" name="email" id="email" class="inputUser" required>
+                            <label for="email" class="labelInput">E-mail</label>
+                        </div>
+                        <br><br>
+                        <div class="inputBox">
+                            <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                            <label for="telefone" class="labelInput">Telefone</label>
+                        </div>
+                        <br>
+                        <p><strong>Escolha o especialista</strong></p>
+                        <br>
+                        <input type="radio" id="doutor" name="genero" value="doutor" required>
+                        <label for="doutor">Dr. Carlos - R$300,00 a consulta</label>
+                        <br><br>
+                        <input type="radio" id="doutor" name="genero" value="doutor" required>
+                        <label for="doutor">Dr. João - R$300,00 a consulta</label>
+                        <br><br>
+                        <input type="radio" id="doutora" name="genero" value="doutora" required>
+                        <label for="doutora">Dra. Paula - R$300,00 a consulta</label>
+                        <br><br>
+                        <input type="radio" id="doutora" name="genero" value="doutora" required>
+                        <label for="doutora">Dra. Miyuki - R$300,00 a consulta</label>
+                        <br><br>
+                        <label for="data_nascimento"><b>Escolha a data e hora da consulta</b></label>
+                        <input type="datetime-local" name="data_nascimento" id="data_nascimento" required>
+                        <br><br><br>
+                        <div class="inputBox">
+                            <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                            <label for="cidade" class="labelInput">Cidade</label>
+                        </div>
+                        <br><br>
+                        <div class="inputBox">
+                            <input type="text" name="estado" id="estado" class="inputUser" required>
+                            <label for="estado" class="labelInput">Estado</label>
+                        </div>
+                        <br><br>
+                        <div class="inputBox">
+                            <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                            <label for="endereco" class="labelInput">Endereço</label>
+                        </div>
+                        <br><br>
+                        <input type="submit" name="submit" id="submit">
+            </div>
+            </fieldset>
+            </form>
+            </div>
+
+            <footer class="footer">
+                <div class="container1">
+                    <div class="row1">
+                        <div class="footer-col">
+                            <h4>Companhia</h4>
+                            <ul>
+                                <li><a href="">sobre nós</a></li>
+                                <li><a href="">nossos serviços</a></li>
+                                <li><a href="">política de privacidade</a></li>
+                                <li><a href="">programa de afiliados</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-col">
+                            <h4>obter ajuda</h4>
+                            <ul>
+                                <li><a href="">FAQ</a></li>
+                                <li><a href="">envio</a></li>
+                                <li><a href="">retorno</a></li>
+                                <li><a href="">status</a></li>
+                                <li><a href="">opções de pagamento</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-col">
+                            <h4>Contato</h4>
+                            <ul>
+                                <li><a href="">E-mail</a></li>
+                                <li><a href="">Telefone</a></li>
+                                <li><a href="">whatsapp</a></li>
+                                <li><a href="">serviços</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-col">
+                            <h4>siga-nos</h4>
+                            <div class="social-links">
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-linkedin"></i></a>
+                                <a href=""><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
